@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 128, 109)
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 60px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
